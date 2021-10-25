@@ -1,0 +1,157 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.parallax1 {
+  background-image: url("../../img/c.blends.official_20210925_10.png");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url("../../img/alexandarcosmetics_20210926_3.png");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  background-image: url("../../img/c.blends.official_20210925_15.png");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax4 {
+  background-image: url("../../img/heritagetools_20210926_4.png");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service {
+  padding: 20px 180px 20px 180px;
+}
+
+.service_title {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(79, 79, 79);
+}
+
+.service_menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service_titles {
+  padding: 0px 40px 20px 40px;
+}
+
+.service_part {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 350px 100px 350px;
+}
+
+.intro_title {
+  color: rgb(72, 72, 72);
+  padding-bottom: 40px;
+}
+
+.intro_para {
+  line-height: 1.7em;
+  text-align: center;
+  color: rgb(81, 81, 81);
+}
+
+.waiting {
+  color: rgb(72, 72, 72);
+  font-weight: normal;
+}
+
+.service_paragraph {
+  color: rgb(26, 26, 26);
+  font-weight: bold;
+}
+
+.footer_menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  padding: 70px 200px 50px 200px ;
+  background-color: black;
+  color: white;
+}
+
+hr {
+  width: 100px;
+  color: white;
+}
+
+.in_parallax {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.items_parallax {
+  padding: 180px;
+}
+
+.email_form {
+  text-align: center;
+  padding: 100px 0px 50px 0px;
+}
+
+
+@media (max-width: 320px) {
+  .service {
+    padding: 0px;
+  }
+  .service_titles {
+    padding: 0px;
+  }
+  
+  .service_part {
+    padding: 0px;
+  }
+  
+  .intro {
+    padding: 0px;
+  }
+  
+  .intro_title {
+    padding-bottom: 0px;
+  }
+  
+  .footer_menu {
+    padding: 0px ;
+  }
+  
+  .items_parallax {
+    padding: 0px;
+  }
+}
